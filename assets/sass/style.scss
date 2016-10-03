@@ -1,0 +1,44 @@
+@import "reset";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+$roboto: 'HelveticaNeueDeskInterface-Regular', 'Roboto', Helvetica, Arial, sans-serif;
+
+html, body {
+	overflow-x: hidden;
+	font-family: $roboto;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+
+body{
+	background: url(../img/RobxBautista1.png)no-repeat center center fixed;
+	background-color: #cccccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.header-cont{
+	margin-top: 55px;
+	margin-left: 73px;
+}
+
+.name{
+/*	font-family: HelveticaNeueDeskInterface-Regular;*/
+	font-size: 72px;
+	color: #FFFFFF;
+	letter-spacing: -2px;
+	line-height: 60px;
+	font-weight: 100;
+}
+
+.desc{
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 0px;
+	line-height: 28px;
+	margin: 23px 0 74px 5px;
+	font-weight: 300;
+}
